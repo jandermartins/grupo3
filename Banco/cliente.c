@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 
+
+
 struct cliente{
-	struct TipoCliente tipo;
-	struct Senha senha;
+	int tempo;
+	struct char* tipo;
+	struct char* senha;
 }typedef struct cliente Cliente;
 
 
