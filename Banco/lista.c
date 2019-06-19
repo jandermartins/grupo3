@@ -3,7 +3,7 @@
 #include "lista.h"
 
 struct lista{
-	Cliente* c;	
+	struct cliente* c;	
 	struct lista* ant;
 	struct lista* prox;
 }typedef struct Lista;

@@ -2,6 +2,7 @@
 
 struct caixa{
 	int id;
+	int ocupado;
 	Caixa* proxCaixa;
 }typedef struct caixa Caixa;
 
@@ -15,18 +16,13 @@ Caixa* insereCaixa(int id){
 	novo->id;
 	return novo;
 }
-
-void processaCaixa(Cliente* c, Caixa cx){
-	if()
-
-	if(strcmp(c->tipo, "PNE")){
-
-	}
-	if(strcmp(c->tipo, "NPNE")){
-
-	}
-
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-
+/*1 para vazio e -1 para ocupado*/
+void verificaCaixaOcupado(Caixa* c){
+	if(c->ocupado == -1)
+		return -1;
+	else
+		return 1;
 }
+
+
 
